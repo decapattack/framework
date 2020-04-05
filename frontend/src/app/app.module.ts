@@ -11,6 +11,9 @@ import { PostComponent } from './post/post.component';
 import { AddUserComponent } from './add-user/add-user.component';
 import { HeaderComponent } from './header/header.component';
 import { AddPostComponent } from './add-post/add-post.component';
+import { AlbumComponent } from './album/album.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 
@@ -23,7 +26,10 @@ import { AddPostComponent } from './add-post/add-post.component';
     PostComponent,
     AddUserComponent,
     HeaderComponent,
-    AddPostComponent
+    AddPostComponent,
+    AlbumComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
