@@ -1,0 +1,18 @@
+<div class="container">
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Deletar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td>{{user.id}}</td>
+      <td>{{user.login}}</td>
+      <td><button class="btn btn-danger" (click)="deleteUser(user)">Deletar Usuário</button></td>
+    </tr>
+  </tbody>
+</table>
+</div>

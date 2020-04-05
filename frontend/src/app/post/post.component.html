@@ -1,0 +1,19 @@
+<div class="container" *ngIf="isDataAvailable">
+  <div class="card">
+    <div class="card-header">
+      {{post.titulo}}
+    </div>
+    <div class="card-body">
+      <p class="card-text">{{post.corpo}}</p>
+      <a href="#" class="btn btn-alert">Go somewhere</a>
+    </div>
+  </div>
+  <br>
+  Comentários
+  <hr>
+  <div class="card" *ngFor="let comment of comments">
+    <div class="card-body">
+      {{comment.comentario}}
+    </div>
+  </div>
+</div>
